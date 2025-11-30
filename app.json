@@ -2,14 +2,21 @@
   "expo": {
     "name": "media-mobile",
     "slug": "media-mobile",
-    "version": "1.0.0",
+    "owner": "HirooHG",
+    "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "mediamobile",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "githubUrl": "https://github.com/HirooHG/media-mobile.git",
+    "platforms": [
+      "android",
+      "ios"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "fr.HirooHG.mediamobile"
     },
     "android": {
       "adaptiveIcon": {
@@ -19,7 +26,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "fr.HirooHG.mediamobile"
     },
     "web": {
       "output": "static",
